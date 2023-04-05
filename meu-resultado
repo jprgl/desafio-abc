@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio ABC</title>
+    <!-- 
+        A ideia é criar uma página que contenha um script que JavaScript com três variáveis A B C a variável
+
+        'A' deve receber o valor de 10 a variável 'B' deve receber o valor 20 e a variável 'C' deve receber o valor
+
+        'null', ou seja, vamos de forma implícita indicar que se aponta para um valor vazio.
+
+        Feito isso nós vamos fazer a impressão desses valores utilizando o método do objeto Document  para que o usuário consiga interagir com a aplicação de modo a saber o que é que existe dentro de cada uma dessas variáveis.
+
+        Na sequência nós vamos aplicar uma lógica e é aqui que entra o desafio: que é basicamente converter os valores das variáveis A e B.
+
+        Só que a inversão desses valores não pode ser hard core ou seja eu não posso simplesmente vir aqui e atribuir o valor de 20 a vir aqui e atribuir o valor de 10 a b que forma de escrevendo no código eu preciso utilizar a variável C nesse processo ela será uma variável auxiliar que pode armazenar temporariamente alguns dos valores e aí na sequência nós vamos novamente utilizar o método Document do objeto documento para listar os valores que A, B e C de modo a demonstrar para o usuário que realmente houve uma inversão de valores.
+
+        Novamente o desafio está na lógica de inversão e aí fica a dica para que você utilize uma variável auxiliar
+    
+    -->
+    <script>
+        var a = 10
+        var b = 20
+        var c = null //variavel auxiliar utilizada na lógica
+
+        document.write('A: ' + a +'<br />')
+        document.write('B: ' + b +'<br />')
+        document.write('C: ' + c +'<br />')
+
+        document.write('<hr />')
+
+        //lógica de inversão dos valores das variáveis A e B
+        
+
+        //        
+
+        // Imprime os valores das variáveis após aplicar a lógica do desafio:
+        document.write('A: ' + a +'<br />')
+        document.write('B: ' + b +'<br />')
+        document.write('C: ' + c +'<br />')
+
+    </script>
+</head>
+<body>
+
+
+    
+</body>
+</html>

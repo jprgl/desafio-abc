@@ -6,12 +6,16 @@ A ideia é criar uma página que contenha um script que JavaScript com três var
 
 'null', ou seja, vamos de forma implícita indicar que se aponta para um valor vazio.
 
-Feito isso nós vamos fazer a impressão desses valores utilizando o método do objeto Document  para que o usuário consiga interagir com a aplicação de modo a saber o que é que existe dentro de cada uma dessas variáveis.
+Feito isso nós vamos fazer a impressão desses valores utilizando o método do objeto Document  para que o usuário consiga interagir 
+com a aplicação de modo a saber o que é que existe dentro de cada uma dessas variáveis.
 
 Na sequência nós vamos aplicar uma lógica e é aqui que entra o desafio: que é basicamente converter os
 
 valores das variáveis a e b.
 
-Só que a inversão desses valores não pode ser hard core ou seja eu não posso simplesmente vir aqui e atribuir o valor de 20 a vir aqui e atribuir o valor de 10 a b que forma de escrevendo no código eu preciso utilizar a variável C nesse processo ela será uma variável auxiliar que pode armazenar temporariamente alguns dos valores e aí na sequência nós vamos novamente utilizar o método Document do objeto documento para listar os valores que A, B e C de modo a demonstrar para o usuário que realmente houve uma inversão de valores.
+Só que a inversão desses valores não pode ser hard core ou seja eu não posso simplesmente vir aqui e atribuir o valor de 20 a vir 
+aqui e atribuir o valor de 10 a b que forma de escrevendo no código eu preciso utilizar a variável C nesse processo ela será uma variável 
+auxiliar que pode armazenar temporariamente alguns dos valores e aí na sequência nós vamos novamente utilizar o método Document do objeto 
+documento para listar os valores que A, B e C de modo a demonstrar para o usuário que realmente houve uma inversão de valores.
 
 Novamente o desafio está na lógica de inversão e aí fica a dica para que você utilize uma variável auxiliar.
